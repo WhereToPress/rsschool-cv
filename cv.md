@@ -4,7 +4,7 @@
 2. Contacts:
     *discord server rsschool: MAK;
     *GitHub: WhereToPress;
-    *e-mail: stolyarov.mak@gmail.com;
+    *e-mail: [e-mail] (stolyarov.mak@gmail.com "my mail");
     *messengers: +375(44)749-69-15.
 
 3. I'm 33 years old. My major is the civil builder. My team impemented a large oil refinery in Belarus. I have achieved recognition in my field, I got bored, and now, I want to learn somthing new.
