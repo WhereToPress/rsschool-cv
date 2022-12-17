@@ -73,7 +73,7 @@ p, h1, h2 {
 .contacts {
     margin-bottom: 20px;
 }
-.contacts__geo::after {
+.logo__geo::after {
     display: inline-block;
     content: "";
     background-image: url(assets/img/geolocation.png);
@@ -81,8 +81,9 @@ p, h1, h2 {
     width: 18px;
     background-size: contain;
     background-repeat: no-repeat;
+    display: inline-block;
 }
-.contacts__mail::after {
+.logo__mail::after {
     display: inline-block;
     content: "";
     background-image: url(assets/img/mail.png);
@@ -91,7 +92,7 @@ p, h1, h2 {
     background-size: contain;
     background-repeat: no-repeat;
 }
-.contacts__phone::after {
+.logo__phone::after {
     display: inline-block;
     content: "";
     background-image: url(assets/img/phone.png);
@@ -100,7 +101,7 @@ p, h1, h2 {
     background-size: contain;
     background-repeat: no-repeat;
 }
-.contacts__telegramm::after {
+.logo__telegramm::after {
     display: inline-block;
     content: "";
     background-image: url(assets/img/telegramm.png);
@@ -109,7 +110,7 @@ p, h1, h2 {
     background-size: contain;
     background-repeat: no-repeat;
 }
-.contacts__git::after {
+.logo__git::after {
     display: inline-block;
     content: "";
     background-image: url(assets/img/github.png);
@@ -118,7 +119,7 @@ p, h1, h2 {
     background-size: contain;
     background-repeat: no-repeat;
 }
-.contacts__discord::after {
+.logo__discord::after {
     display: inline-block;
     content: "";
     background-image: url(assets/img/discord.png);
@@ -183,4 +184,11 @@ p, h1, h2 {
     height: 520px;
     width: 914px;
     border-radius: 10px;
+}
+.footer {
+    height: 60px;
+    background-color: rgb(50, 80, 180);
+    text-align: center;
+    color: white;
+    padding-top: 20px;
 }
