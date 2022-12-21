@@ -4,9 +4,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/ico/favicon-cv2.ico" type="image/x-icon">
 </head>
 <body>
+    <div class="container">
+        <nav class="navigation">
+            <div class="navigation__half__empty"></div>
+            <div class="navigation__links">
+                <a class="navigation__link nav__link__about" href="#">About me
+                    <p class="nav__dropdown__about">I'm 33 years old. I have two specializired educations in the field of industrial and civil engineering, including higher education. My major is the civil builder. My team impemented a large oil refinery in Belarus. I have achieved recognition in my field, I got bored, and now, I want to learn somthing new.</p>
+                </a>
+                <a class="navigation__link nav__link__code" href="#">Code
+                    <p class="nav__dropdown__code">Function "isPrime" determines whether the passed number is prime.<br>
+                        <code class="code"> 
+                            const isPrime = (number) => { <br>
+                                if (number &lt; 2) { <br>
+                                return false; <br>
+                                } <br>
+                            
+                                let divider = 2; <br>
+                            
+                                while (divider &lt;= number / 2) { <br>
+                                if (number % divider === 0) { <br>
+                                    return false; <br>
+                                } <br>
+                                    divider += 1; <br>
+                                } <br>
+                                return true; <br>
+                            }
+                        </code>
+                    </p>
+                </a>
+                <a class="navigation__link nav_link__english" href="#">English
+                    <p class="nav__dropdown__eng">A2</p>
+                </a>
+            </div>
+        </nav>
+        <header class="header">
+            <div class="dev__name dropdown">
+                <h1>STALIROU MAKSIM</h1>
+                <div class="dropdownPhoto my__picture"></div>
+            </div>
+            <p class="dev__job">JUNIOR FRONT-END DEVELOPER</p>
+        </header>
+        <main class="main">
+            <div class="short">
+                <div class="contacts">
+                    <h2 class="contacts__title">CONTACTS</h2>
+                    <p class="contacts_item logo__geo">Mogilev, Belarus :Place </p>
+                    <p class="contacts_item logo__phone">+375(44)749-69-15 :Phone </p>
+                    <p class="contacts_item logo__mail">stolyarov.mak@gmail.com :E-mail </p>
+                    <p class="contacts_item logo__git">WhereToPress :GitHub </p>
+                    <p class="contacts_item logo__discord">Mak#8018 :Discord </p>
+                    <p class="contacts_item logo__telegramm">@Stolyarov_Mak :Telegram </p>
+                    <p class="contacts_item"></p>
+                </div>
+                <div class="education">
+                    <h2 class="education__title">EDUCATION</h2>
+                    <a class="education__link dropdown" href="http://bru.by/" target="_blank" rel="noopener noreferrer">Belarus-Russian University
+                        <div class="dropdownImg education__bru"></div>
+                    </a>
+                    <br>
+                    <a class="education__link dropdown" href="https://mogilev-region.gov.by/page/101825-obrazovatelnyy-proekt-it-laboratoriya" target="_blank" rel="noopener noreferrer">IT-Laboratory
+                        <div class="dropdownImg education__IT_lab"></div>
+                    </a>
+                    <br>
+                    <a class="education__link dropdown" href="http://rs.school" target="_blank" rel="noopener noreferrer">RS-SCHOOL
+                        <div class="dropdownImg education__rs"></div>
+                    </a>
+                    <br>
+                    <a class="education__link dropdown" href="http://hexlet.io" target="_blank" rel="noopener noreferrer">HEXLET
+                        <div class="dropdownImg education__hexlet"></div>
+                    </a>
+                </div>
+                <div class="skills">
+                    <h2 class="skills__title">SKILLS</h2>
+                    <p class="skills__subtitle">Languages</p>
+                    <p class="skills__item">HTML</p>
+                    <p class="skills__item">CSS</p>
+                    <p class="skills__item">JavaScript</p>
+                    <p class="skills__item">Python</p>
+                    <p class="skills__subtitle">Other</p>
+                    <p class="skills__item">GitHub</p>
+                    <p class="skills__item">GitBash</p>
+                    <p class="skills__item">VS-Code</p>
+                    <p class="skills__item">Vim</p>
+                </div>
+            </div>
+            <div class="long">
+                <div class="empty_picture">    
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__flex">
+                <p>12.12.2022</p>
+                <a class="footer__link" href="https://github.com/WhereToPress">GitHub.com</a>
+            </div>
+            <img class="footer__logo" src="assets/img/rs_school_js.svg" alt="The Rolling Scopes School's logo">
+            <a class="footer__link" href="http://rs.school/js/"><br>RS.SCHOOL</a>
+        </footer>   
+    </div>
 </body>
 </html>
