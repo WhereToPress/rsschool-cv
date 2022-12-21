@@ -247,18 +247,25 @@ p, h1, h2 {
 }
 .footer__flex {
     display: flex;
-    flex-direction: column;
     padding-left: 30px;
 }
-.footer__flex p {
+.footer__p {
     color: black;
+    font-size: 3em;
 }
 .footer__link {
     display: inline-block;
     text-decoration: none;
     color: black;
 }
-.footer__logo {
+.footer__link:nth-child(2) {
+    margin-right: 900px;
+}
+.footer__logo__github {
+    height: 32px;
+    width: 32px;
+}
+.footer__logo__rs {
     height: 33px;
     width: 200px;
 }
