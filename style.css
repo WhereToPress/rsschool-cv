@@ -24,11 +24,63 @@ p, h1, h2 {
 }
 .navigation__links {
     width: 40%;
+    position: relative;
 }
 .navigation__link {
+    margin-right: 30px;
     text-decoration: none;
     color: white;
 }
+.nav__link__about:hover .nav__dropdown__about {
+    display: block;
+}
+.nav__dropdown__about {
+    display: none;
+    position: absolute;
+    top: 103px;
+    left: -395px;
+    height: 520px;
+    width: 915px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 50px;
+    color: white;
+    font-size: 2em;
+}
+.nav__link__code:hover .nav__dropdown__code {
+    display: block;
+}
+.nav__dropdown__code {
+    display: none;
+    position: absolute;
+    top: 103px;
+    left: -395px;
+    height: 520px;
+    width: 915px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 50px;
+    color: white;
+    font-size: 1.6em;
+}
+.nav_link__english:hover .nav__dropdown__eng {
+    display: block;
+}
+.nav__dropdown__eng {
+    display: none;
+    position: absolute;
+    top: 103px;
+    left: -395px;
+    height: 520px;
+    width: 915px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 50px;
+    color: white;
+    font-size: 10em;
+    text-align: center;
+}
+
 .header {
     background-color: rgb(50, 80, 180);
     color: white;
@@ -46,11 +98,10 @@ p, h1, h2 {
     position: absolute;
     top: 74px;
     left: 382px;
-    height: 520px;
+    height: 522px;
     width: 918px;
     border-radius: 10px;
 }
-
 .my__picture {
     background-image: url(assets/img/my_picture2.jpg);
     background-size: cover;
@@ -186,9 +237,28 @@ p, h1, h2 {
     border-radius: 10px;
 }
 .footer {
-    height: 60px;
+    display: flex;
+    justify-content: start;
+    height: 80px;
     background-color: rgb(50, 80, 180);
     text-align: center;
     color: white;
     padding-top: 20px;
+}
+.footer__flex {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.footer__flex p {
+    color: black;
+}
+.footer__link {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.footer__logo {
+    height: 33px;
+    width: 200px;
 }
